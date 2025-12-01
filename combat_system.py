@@ -8,7 +8,7 @@ AI Usage: [Document any AI assistance used]
 
 Handles combat mechanics
 """
-
+import random
 from custom_exceptions import (
     InvalidTargetError,
     CombatNotActiveError,
@@ -321,7 +321,8 @@ def display_battle_log(message):
 
 if __name__ == "__main__":
     print("=== COMBAT SYSTEM TEST ===")
-     test_char = {
+
+        test_char = {
         "name": "Hero",
         "class": "Warrior",
         "health": 120,
