@@ -4,7 +4,7 @@ Character Manager Module - Starter Code
 
 Name: Silas Hayes
 
-AI Usage: [Document any AI assistance used]
+AI Usage: ChatGPT was used to fix any and all indentation errors, as well as providing understanding to things I was confused on
 
 This module handles character creation, loading, and saving.
 """
