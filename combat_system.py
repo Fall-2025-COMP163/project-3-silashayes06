@@ -174,7 +174,7 @@ class SimpleBattle:
     
     def calculate_damage(self, attacker, defender):
          dmg = attacker["strength"] - (defender["strength"] // 4)
-        return max(1, dmg)
+         return max(1, dmg)
         # TODO: Implement damage calculation
         
     
