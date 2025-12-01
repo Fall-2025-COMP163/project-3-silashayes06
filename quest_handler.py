@@ -2,7 +2,7 @@
 COMP 163 - Project 3: Quest Chronicles
 Quest Handler Module - Starter Code
 
-Name: [Your Name Here]
+Name: Silas Hayes
 
 AI Usage: [Document any AI assistance used]
 
@@ -294,4 +294,6 @@ if __name__ == "__main__":
     #     print("Quest accepted!")
     # except QuestRequirementsNotMetError as e:
     #     print(f"Cannot accept: {e}")
+
+
 
