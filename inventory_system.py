@@ -160,7 +160,7 @@ def use_item(character, item_id, item_data):
     stat, value = parse_item_effect(item_data['effect'])
     apply_stat_effect(character, stat, value)
     remove_item_from_inventory(character, item_id)
-    return f"Used {item_data['name']}! {stat} increased by {value}"
+    return f"Used {item_id}! {stat} increased by {value}"
 
 def equip_weapon(character, item_id, item_data):
     """
@@ -198,7 +198,7 @@ def equip_weapon(character, item_id, item_data):
     character[stat] += value
     character['equipped_weapon'] = {"item_id": item_id, "effect": item_data['effect']}
     remove_item_from_inventory(character, item_id)
-    return f"Equipped weapon {item_data['name']}"
+    return f"Equipped weapon {item_id}"
 
 def equip_armor(character, item_id, item_data):
     """
