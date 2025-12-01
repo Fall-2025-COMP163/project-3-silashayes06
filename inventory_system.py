@@ -196,7 +196,7 @@ def equip_weapon(character, item_id, item_data):
         unequip_weapon(character)
     stat, value = parse_item_effect(item_data['effect'])
     character[stat] += value
-    character['equipped_weapon'] = {"item_id": item_id, "effect": item_data['effect']}
+    character['equipped_weapon'] = item_id
     remove_item_from_inventory(character, item_id)
     return f"Equipped weapon {item_id}"
 
