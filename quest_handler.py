@@ -4,7 +4,7 @@ Quest Handler Module - Starter Code
 
 Name: Silas Hayes
 
-AI Usage: [Document any AI assistance used]
+AI Usage: ChatGPT was used to describe what everything that needed handling does, fixed indentation errors, and correctly formatted the code below. 
 
 This module handles quest management, dependencies, and completion.
 """
