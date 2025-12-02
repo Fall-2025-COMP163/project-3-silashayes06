@@ -4,7 +4,7 @@ Game Data Module - Full Implementation
 
 Name: Silas Hayes
 
-AI Usage: [Document any AI assistance used]
+AI Usage: ChatGPT was used to explain how lading and validating the game data from the files works and fixed indentation errors preventing the cases to pass.  
 
 This module handles loading and validating game data from text files.
 """
