@@ -4,7 +4,7 @@ Combat System Module - Fixed Version
 
 Name: Silas Hayes
 
-AI Usage: Corrected code formatting, exception handling, and main test block.
+AI Usage: ChatGPT was used to correct code formatting and exception handling so that everything functions how it needs to. 
 """
 
 import random
